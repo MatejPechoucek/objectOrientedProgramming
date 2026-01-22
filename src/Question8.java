@@ -1,7 +1,6 @@
 import java.util.Scanner;
-import static java.lang.Float.NaN;
 
-public class Exercise8 {
+public class Question8 {
 
     private String decision_maker() {
         Scanner sc = new Scanner(System.in);
@@ -55,7 +54,7 @@ public class Exercise8 {
     }
 
     public static void main(String[] args) {
-        Exercise8 ex8 = new Exercise8();
+        Question8 ex8 = new Question8();
         String text = ex8.decision_maker();
         if (text.isEmpty()) {
             System.out.println();

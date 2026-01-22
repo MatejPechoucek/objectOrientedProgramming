@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Exercise10 {
+public class Question10 {
 
     private ArrayList<String> tidyString(String words) {
         ArrayList<String> myarray = new ArrayList<String>();
@@ -15,7 +15,7 @@ public class Exercise10 {
     }
 
     public static void main(String[] args) {
-        Exercise10 ex10 = new Exercise10();
+        Question10 ex10 = new Question10();
         String text = "Neil, a trap! Sid is part alien!";
         if (ex10.tidyString(text).equals(ex10.tidyString(text).reversed())) {
             System.out.println("Sentence is a palindrome!");

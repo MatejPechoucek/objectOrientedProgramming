@@ -1,0 +1,12 @@
+public double[] inputDoubles() {
+        Scanner sc2 = new Scanner(System.in);
+        double[] dblarray = new double[10];
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Enter a double: ");
+            double input = Double.parseDouble(sc2.nextLine());
+            dblarray[i] = input;
+        }
+        return dblarray;
+    }
+({[})]
+/* test */

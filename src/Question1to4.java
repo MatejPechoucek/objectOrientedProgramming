@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Exercises1to4 {
+public class Question1to4 {
 
     public void inputString() {
         Scanner sc1 = new Scanner(System.in);
@@ -79,7 +79,7 @@ public class Exercises1to4 {
     }
 
     public static void main(String[] args) {
-        Exercises1to4 ex1 = new Exercises1to4();
+        Question1to4 ex1 = new Question1to4();
         //ex1.inputString(); //Q1.1
         //ex1.q1point2(); //Q1.2
         //ex1.q1point3(); //Q1.3

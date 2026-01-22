@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercises5to6 {
+public class Question5to6 {
 
     double num1;
     double num2;
@@ -24,7 +24,7 @@ public class Exercises5to6 {
 
 
     public static void main(String[] args) {
-        Exercises5to6 ex5 = new Exercises5to6();
+        Question5to6 ex5 = new Question5to6();
         //System.out.println(ex5.squareDouble(ex5.inputDouble(), ex5.inputDouble())); //Q1.5
         //ex5.setnums(ex5.inputDouble(), ex5.inputDouble()); //Q1.6
         //System.out.println(ex5.getnums()); //Q1.6

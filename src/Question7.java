@@ -1,4 +1,4 @@
-public class Exercise7 {
+public class Question7 {
 
     public String toBase(int n, int b) {
         StringBuilder num = new StringBuilder();
@@ -11,7 +11,7 @@ public class Exercise7 {
 
 
     public static void main(String[] args) {
-        Exercise7 ex7 = new Exercise7();
+        Question7 ex7 = new Question7();
         System.out.println(ex7.toBase(612,6));
     }
 

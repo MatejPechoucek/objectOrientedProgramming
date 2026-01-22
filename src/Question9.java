@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Exercise9 {
+public class Question9 {
 
     private ArrayList<Long> convertList(long number) {
         ArrayList<Long> myarray = new ArrayList<>();
@@ -12,7 +12,7 @@ public class Exercise9 {
     }
     public static void main(String[] args) {
 
-        Exercise9 ex9 = new Exercise9();
+        Question9 ex9 = new Question9();
         ArrayList<Long> array = ex9.convertList(1221);
         if (array.equals(array.reversed())) {
             System.out.println("Number is a palindrome");
